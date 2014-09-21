@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181943B919CF2DEF003BECE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943B819CF2DEF003BECE1 /* Foundation.framework */; };
+		181943BB19CF2DEF003BECE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943BA19CF2DEF003BECE1 /* CoreGraphics.framework */; };
+		181943BD19CF2DEF003BECE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943BC19CF2DEF003BECE1 /* UIKit.framework */; };
+		181943BF19CF2DEF003BECE1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943BE19CF2DEF003BECE1 /* SpriteKit.framework */; };
+		181943C519CF2DEF003BECE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181943C319CF2DEF003BECE1 /* InfoPlist.strings */; };
+		181943C719CF2DEF003BECE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943C619CF2DEF003BECE1 /* main.m */; };
+		181943CB19CF2DEF003BECE1 /* MyAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943CA19CF2DEF003BECE1 /* MyAppAppDelegate.m */; };
+		181943CE19CF2DEF003BECE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181943CC19CF2DEF003BECE1 /* Main.storyboard */; };
+		181943D119CF2DEF003BECE1 /* MyAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943D019CF2DEF003BECE1 /* MyAppViewController.m */; };
+		181943D419CF2DEF003BECE1 /* MyAppMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943D319CF2DEF003BECE1 /* MyAppMyScene.m */; };
+		181943D619CF2DEF003BECE1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 181943D519CF2DEF003BECE1 /* Spaceship.png */; };
+		181943D819CF2DEF003BECE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181943D719CF2DEF003BECE1 /* Images.xcassets */; };
+		181943DF19CF2DEF003BECE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943DE19CF2DEF003BECE1 /* XCTest.framework */; };
+		181943E019CF2DEF003BECE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943B819CF2DEF003BECE1 /* Foundation.framework */; };
+		181943E119CF2DEF003BECE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943BC19CF2DEF003BECE1 /* UIKit.framework */; };
+		181943E919CF2DEF003BECE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181943E719CF2DEF003BECE1 /* InfoPlist.strings */; };
+		181943EB19CF2DEF003BECE1 /* Pykin_RealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */; };
+		1819443019CF33C3003BECE1 /* MapScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819442F19CF33C3003BECE1 /* MapScene.m */; };
+		1819446A19CF3DD0003BECE1 /* icon_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445319CF3DD0003BECE1 /* icon_cafe.png */; };
+		1819446B19CF3DD0003BECE1 /* icon_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445419CF3DD0003BECE1 /* icon_cafe@2x.png */; };
+		1819446C19CF3DD0003BECE1 /* icon_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445519CF3DD0003BECE1 /* icon_photo.png */; };
+		1819446D19CF3DD0003BECE1 /* icon_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445619CF3DD0003BECE1 /* icon_photo@2x.png */; };
+		1819446E19CF3DD0003BECE1 /* icon_pykinite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445719CF3DD0003BECE1 /* icon_pykinite.png */; };
+		1819446F19CF3DD0003BECE1 /* icon_pykinite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445819CF3DD0003BECE1 /* icon_pykinite@2x.png */; };
+		1819447019CF3DD0003BECE1 /* icon_pykoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445919CF3DD0003BECE1 /* icon_pykoin.png */; };
+		1819447119CF3DD0003BECE1 /* icon_pykoin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445A19CF3DD0003BECE1 /* icon_pykoin@2x.png */; };
+		1819447219CF3DD0003BECE1 /* icon_resto.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445B19CF3DD0003BECE1 /* icon_resto.png */; };
+		1819447319CF3DD0003BECE1 /* icon_resto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445C19CF3DD0003BECE1 /* icon_resto@2x.png */; };
+		1819447419CF3DD0003BECE1 /* icon_star0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445D19CF3DD0003BECE1 /* icon_star0.png */; };
+		1819447519CF3DD0003BECE1 /* icon_star0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445E19CF3DD0003BECE1 /* icon_star0@2x.png */; };
+		1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445F19CF3DD0003BECE1 /* icon_star1.png */; };
+		1819447719CF3DD0003BECE1 /* icon_star1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446019CF3DD0003BECE1 /* icon_star1@2x.png */; };
+		1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446119CF3DD0003BECE1 /* login_facebook.png */; };
+		1819447919CF3DD0003BECE1 /* login_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446219CF3DD0003BECE1 /* login_facebook@2x.png */; };
+		1819447A19CF3DD0003BECE1 /* pykin_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446319CF3DD0003BECE1 /* pykin_splash.png */; };
+		1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */; };
+		1819447C19CF3DD0003BECE1 /* textbox_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446619CF3DD0003BECE1 /* textbox_body.png */; };
+		1819447D19CF3DD0003BECE1 /* textbox_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446719CF3DD0003BECE1 /* textbox_bottom.png */; };
+		1819447E19CF3DD0003BECE1 /* textbox_point.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446819CF3DD0003BECE1 /* textbox_point.png */; };
+		1819447F19CF3DD0003BECE1 /* textbox_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446919CF3DD0003BECE1 /* textbox_top.png */; };
+		1819448119CF3F58003BECE1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448019CF3F58003BECE1 /* GoogleMaps.framework */; };
+		1819448319CF3FC4003BECE1 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1819448219CF3FC4003BECE1 /* GoogleMaps.bundle */; };
+		1819448519CF3FF0003BECE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448419CF3FF0003BECE1 /* AVFoundation.framework */; };
+		1819448719CF3FF8003BECE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448619CF3FF8003BECE1 /* CoreData.framework */; };
+		1819448919CF4009003BECE1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448819CF4009003BECE1 /* CoreLocation.framework */; };
+		1819448B19CF4015003BECE1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448A19CF4015003BECE1 /* CoreText.framework */; };
+		1819448D19CF401E003BECE1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448C19CF401E003BECE1 /* GLKit.framework */; };
+		1819448F19CF4028003BECE1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819448E19CF4028003BECE1 /* ImageIO.framework */; };
+		1819449119CF402F003BECE1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449019CF402F003BECE1 /* libc++.dylib */; };
+		1819449319CF4038003BECE1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449219CF4038003BECE1 /* libicucore.dylib */; };
+		1819449519CF403E003BECE1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449419CF403E003BECE1 /* libz.dylib */; };
+		1819449719CF4046003BECE1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449619CF4046003BECE1 /* OpenGLES.framework */; };
+		1819449919CF404D003BECE1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449819CF404D003BECE1 /* QuartzCore.framework */; };
+		1819449B19CF4054003BECE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449A19CF4054003BECE1 /* SystemConfiguration.framework */; };
+		1819449E19CF45B8003BECE1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819449D19CF45B8003BECE1 /* MapViewController.m */; };
+		181944A119CF681B003BECE1 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 181944A019CF681B003BECE1 /* Shop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181943E219CF2DEF003BECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181943AD19CF2DEF003BECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181943B419CF2DEF003BECE1;
+			remoteInfo = "Pykin Realm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181943B519CF2DEF003BECE1 /* Pykin Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pykin Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181943B819CF2DEF003BECE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181943BA19CF2DEF003BECE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181943BC19CF2DEF003BECE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181943BE19CF2DEF003BECE1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		181943C219CF2DEF003BECE1 /* Pykin Realm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin Realm-Info.plist"; sourceTree = "<group>"; };
+		181943C419CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181943C619CF2DEF003BECE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181943C819CF2DEF003BECE1 /* Pykin Realm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pykin Realm-Prefix.pch"; sourceTree = "<group>"; };
+		181943C919CF2DEF003BECE1 /* MyAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppAppDelegate.h; sourceTree = "<group>"; };
+		181943CA19CF2DEF003BECE1 /* MyAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppAppDelegate.m; sourceTree = "<group>"; };
+		181943CD19CF2DEF003BECE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181943CF19CF2DEF003BECE1 /* MyAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppViewController.h; sourceTree = "<group>"; };
+		181943D019CF2DEF003BECE1 /* MyAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppViewController.m; sourceTree = "<group>"; };
+		181943D219CF2DEF003BECE1 /* MyAppMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppMyScene.h; sourceTree = "<group>"; };
+		181943D319CF2DEF003BECE1 /* MyAppMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppMyScene.m; sourceTree = "<group>"; };
+		181943D519CF2DEF003BECE1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		181943D719CF2DEF003BECE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pykin RealmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181943DE19CF2DEF003BECE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		181943E619CF2DEF003BECE1 /* Pykin RealmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin RealmTests-Info.plist"; sourceTree = "<group>"; };
+		181943E819CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pykin_RealmTests.m; sourceTree = "<group>"; };
+		1819442E19CF33C3003BECE1 /* MapScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScene.h; sourceTree = "<group>"; };
+		1819442F19CF33C3003BECE1 /* MapScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScene.m; sourceTree = "<group>"; };
+		1819445319CF3DD0003BECE1 /* icon_cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cafe.png; sourceTree = "<group>"; };
+		1819445419CF3DD0003BECE1 /* icon_cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cafe@2x.png"; sourceTree = "<group>"; };
+		1819445519CF3DD0003BECE1 /* icon_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_photo.png; sourceTree = "<group>"; };
+		1819445619CF3DD0003BECE1 /* icon_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_photo@2x.png"; sourceTree = "<group>"; };
+		1819445719CF3DD0003BECE1 /* icon_pykinite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pykinite.png; sourceTree = "<group>"; };
+		1819445819CF3DD0003BECE1 /* icon_pykinite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pykinite@2x.png"; sourceTree = "<group>"; };
+		1819445919CF3DD0003BECE1 /* icon_pykoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pykoin.png; sourceTree = "<group>"; };
+		1819445A19CF3DD0003BECE1 /* icon_pykoin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pykoin@2x.png"; sourceTree = "<group>"; };
+		1819445B19CF3DD0003BECE1 /* icon_resto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_resto.png; sourceTree = "<group>"; };
+		1819445C19CF3DD0003BECE1 /* icon_resto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_resto@2x.png"; sourceTree = "<group>"; };
+		1819445D19CF3DD0003BECE1 /* icon_star0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star0.png; sourceTree = "<group>"; };
+		1819445E19CF3DD0003BECE1 /* icon_star0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star0@2x.png"; sourceTree = "<group>"; };
+		1819445F19CF3DD0003BECE1 /* icon_star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star1.png; sourceTree = "<group>"; };
+		1819446019CF3DD0003BECE1 /* icon_star1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star1@2x.png"; sourceTree = "<group>"; };
+		1819446119CF3DD0003BECE1 /* login_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_facebook.png; sourceTree = "<group>"; };
+		1819446219CF3DD0003BECE1 /* login_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_facebook@2x.png"; sourceTree = "<group>"; };
+		1819446319CF3DD0003BECE1 /* pykin_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pykin_splash.png; sourceTree = "<group>"; };
+		1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pykin_splash@2x.png"; sourceTree = "<group>"; };
+		1819446619CF3DD0003BECE1 /* textbox_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_body.png; sourceTree = "<group>"; };
+		1819446719CF3DD0003BECE1 /* textbox_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_bottom.png; sourceTree = "<group>"; };
+		1819446819CF3DD0003BECE1 /* textbox_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_point.png; sourceTree = "<group>"; };
+		1819446919CF3DD0003BECE1 /* textbox_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_top.png; sourceTree = "<group>"; };
+		1819448019CF3F58003BECE1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		1819448219CF3FC4003BECE1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1819448419CF3FF0003BECE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1819448619CF3FF8003BECE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1819448819CF4009003BECE1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1819448A19CF4015003BECE1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1819448C19CF401E003BECE1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1819448E19CF4028003BECE1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1819449019CF402F003BECE1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1819449219CF4038003BECE1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1819449419CF403E003BECE1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1819449619CF4046003BECE1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1819449819CF404D003BECE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1819449A19CF4054003BECE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1819449C19CF45B8003BECE1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		1819449D19CF45B8003BECE1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		1819449F19CF681B003BECE1 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		181944A019CF681B003BECE1 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181943B219CF2DEF003BECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819449B19CF4054003BECE1 /* SystemConfiguration.framework in Frameworks */,
+				1819449919CF404D003BECE1 /* QuartzCore.framework in Frameworks */,
+				1819449719CF4046003BECE1 /* OpenGLES.framework in Frameworks */,
+				1819449519CF403E003BECE1 /* libz.dylib in Frameworks */,
+				1819449319CF4038003BECE1 /* libicucore.dylib in Frameworks */,
+				1819449119CF402F003BECE1 /* libc++.dylib in Frameworks */,
+				1819448F19CF4028003BECE1 /* ImageIO.framework in Frameworks */,
+				1819448D19CF401E003BECE1 /* GLKit.framework in Frameworks */,
+				1819448B19CF4015003BECE1 /* CoreText.framework in Frameworks */,
+				1819448919CF4009003BECE1 /* CoreLocation.framework in Frameworks */,
+				1819448719CF3FF8003BECE1 /* CoreData.framework in Frameworks */,
+				1819448519CF3FF0003BECE1 /* AVFoundation.framework in Frameworks */,
+				181943BB19CF2DEF003BECE1 /* CoreGraphics.framework in Frameworks */,
+				181943BD19CF2DEF003BECE1 /* UIKit.framework in Frameworks */,
+				181943BF19CF2DEF003BECE1 /* SpriteKit.framework in Frameworks */,
+				1819448119CF3F58003BECE1 /* GoogleMaps.framework in Frameworks */,
+				181943B919CF2DEF003BECE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181943DA19CF2DEF003BECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943DF19CF2DEF003BECE1 /* XCTest.framework in Frameworks */,
+				181943E119CF2DEF003BECE1 /* UIKit.framework in Frameworks */,
+				181943E019CF2DEF003BECE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181943AC19CF2DEF003BECE1 = {
+			isa = PBXGroup;
+			children = (
+				1819445119CF3DD0003BECE1 /* Resources */,
+				181943C019CF2DEF003BECE1 /* Pykin Realm */,
+				181943E419CF2DEF003BECE1 /* Pykin RealmTests */,
+				181943B719CF2DEF003BECE1 /* Frameworks */,
+				181943B619CF2DEF003BECE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181943B619CF2DEF003BECE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181943B519CF2DEF003BECE1 /* Pykin Realm.app */,
+				181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181943B719CF2DEF003BECE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1819449A19CF4054003BECE1 /* SystemConfiguration.framework */,
+				1819449819CF404D003BECE1 /* QuartzCore.framework */,
+				1819449619CF4046003BECE1 /* OpenGLES.framework */,
+				1819449419CF403E003BECE1 /* libz.dylib */,
+				1819449219CF4038003BECE1 /* libicucore.dylib */,
+				1819449019CF402F003BECE1 /* libc++.dylib */,
+				1819448E19CF4028003BECE1 /* ImageIO.framework */,
+				1819448C19CF401E003BECE1 /* GLKit.framework */,
+				1819448A19CF4015003BECE1 /* CoreText.framework */,
+				1819448819CF4009003BECE1 /* CoreLocation.framework */,
+				1819448619CF3FF8003BECE1 /* CoreData.framework */,
+				1819448419CF3FF0003BECE1 /* AVFoundation.framework */,
+				1819448219CF3FC4003BECE1 /* GoogleMaps.bundle */,
+				1819448019CF3F58003BECE1 /* GoogleMaps.framework */,
+				181943B819CF2DEF003BECE1 /* Foundation.framework */,
+				181943BA19CF2DEF003BECE1 /* CoreGraphics.framework */,
+				181943BC19CF2DEF003BECE1 /* UIKit.framework */,
+				181943BE19CF2DEF003BECE1 /* SpriteKit.framework */,
+				181943DE19CF2DEF003BECE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181943C019CF2DEF003BECE1 /* Pykin Realm */ = {
+			isa = PBXGroup;
+			children = (
+				181943C919CF2DEF003BECE1 /* MyAppAppDelegate.h */,
+				181943CA19CF2DEF003BECE1 /* MyAppAppDelegate.m */,
+				181943CC19CF2DEF003BECE1 /* Main.storyboard */,
+				181943CF19CF2DEF003BECE1 /* MyAppViewController.h */,
+				181943D019CF2DEF003BECE1 /* MyAppViewController.m */,
+				1819449C19CF45B8003BECE1 /* MapViewController.h */,
+				1819449D19CF45B8003BECE1 /* MapViewController.m */,
+				1819449F19CF681B003BECE1 /* Shop.h */,
+				181944A019CF681B003BECE1 /* Shop.m */,
+				181943D219CF2DEF003BECE1 /* MyAppMyScene.h */,
+				181943D319CF2DEF003BECE1 /* MyAppMyScene.m */,
+				1819442E19CF33C3003BECE1 /* MapScene.h */,
+				1819442F19CF33C3003BECE1 /* MapScene.m */,
+				181943D519CF2DEF003BECE1 /* Spaceship.png */,
+				181943D719CF2DEF003BECE1 /* Images.xcassets */,
+				181943C119CF2DEF003BECE1 /* Supporting Files */,
+			);
+			path = "Pykin Realm";
+			sourceTree = "<group>";
+		};
+		181943C119CF2DEF003BECE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181943C219CF2DEF003BECE1 /* Pykin Realm-Info.plist */,
+				181943C319CF2DEF003BECE1 /* InfoPlist.strings */,
+				181943C619CF2DEF003BECE1 /* main.m */,
+				181943C819CF2DEF003BECE1 /* Pykin Realm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181943E419CF2DEF003BECE1 /* Pykin RealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */,
+				181943E519CF2DEF003BECE1 /* Supporting Files */,
+			);
+			path = "Pykin RealmTests";
+			sourceTree = "<group>";
+		};
+		181943E519CF2DEF003BECE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181943E619CF2DEF003BECE1 /* Pykin RealmTests-Info.plist */,
+				181943E719CF2DEF003BECE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1819445119CF3DD0003BECE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1819445219CF3DD0003BECE1 /* image */,
+				1819446519CF3DD0003BECE1 /* textbox */,
+			);
+			name = Resources;
+			path = "Pykin Realm/Resources";
+			sourceTree = "<group>";
+		};
+		1819445219CF3DD0003BECE1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1819445319CF3DD0003BECE1 /* icon_cafe.png */,
+				1819445419CF3DD0003BECE1 /* icon_cafe@2x.png */,
+				1819445519CF3DD0003BECE1 /* icon_photo.png */,
+				1819445619CF3DD0003BECE1 /* icon_photo@2x.png */,
+				1819445719CF3DD0003BECE1 /* icon_pykinite.png */,
+				1819445819CF3DD0003BECE1 /* icon_pykinite@2x.png */,
+				1819445919CF3DD0003BECE1 /* icon_pykoin.png */,
+				1819445A19CF3DD0003BECE1 /* icon_pykoin@2x.png */,
+				1819445B19CF3DD0003BECE1 /* icon_resto.png */,
+				1819445C19CF3DD0003BECE1 /* icon_resto@2x.png */,
+				1819445D19CF3DD0003BECE1 /* icon_star0.png */,
+				1819445E19CF3DD0003BECE1 /* icon_star0@2x.png */,
+				1819445F19CF3DD0003BECE1 /* icon_star1.png */,
+				1819446019CF3DD0003BECE1 /* icon_star1@2x.png */,
+				1819446119CF3DD0003BECE1 /* login_facebook.png */,
+				1819446219CF3DD0003BECE1 /* login_facebook@2x.png */,
+				1819446319CF3DD0003BECE1 /* pykin_splash.png */,
+				1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		1819446519CF3DD0003BECE1 /* textbox */ = {
+			isa = PBXGroup;
+			children = (
+				1819446619CF3DD0003BECE1 /* textbox_body.png */,
+				1819446719CF3DD0003BECE1 /* textbox_bottom.png */,
+				1819446819CF3DD0003BECE1 /* textbox_point.png */,
+				1819446919CF3DD0003BECE1 /* textbox_top.png */,
+			);
+			path = textbox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181943B419CF2DEF003BECE1 /* Pykin Realm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realm" */;
+			buildPhases = (
+				181943B119CF2DEF003BECE1 /* Sources */,
+				181943B219CF2DEF003BECE1 /* Frameworks */,
+				181943B319CF2DEF003BECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pykin Realm";
+			productName = "Pykin Realm";
+			productReference = 181943B519CF2DEF003BECE1 /* Pykin Realm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181943DC19CF2DEF003BECE1 /* Pykin RealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmTests" */;
+			buildPhases = (
+				181943D919CF2DEF003BECE1 /* Sources */,
+				181943DA19CF2DEF003BECE1 /* Frameworks */,
+				181943DB19CF2DEF003BECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181943E319CF2DEF003BECE1 /* PBXTargetDependency */,
+			);
+			name = "Pykin RealmTests";
+			productName = "Pykin RealmTests";
+			productReference = 181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181943AD19CF2DEF003BECE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyApp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IndyZa;
+				TargetAttributes = {
+					181943DC19CF2DEF003BECE1 = {
+						TestTargetID = 181943B419CF2DEF003BECE1;
+					};
+				};
+			};
+			buildConfigurationList = 181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181943AC19CF2DEF003BECE1;
+			productRefGroup = 181943B619CF2DEF003BECE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181943B419CF2DEF003BECE1 /* Pykin Realm */,
+				181943DC19CF2DEF003BECE1 /* Pykin RealmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181943B319CF2DEF003BECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819447E19CF3DD0003BECE1 /* textbox_point.png in Resources */,
+				1819447419CF3DD0003BECE1 /* icon_star0.png in Resources */,
+				1819447D19CF3DD0003BECE1 /* textbox_bottom.png in Resources */,
+				1819447719CF3DD0003BECE1 /* icon_star1@2x.png in Resources */,
+				1819447319CF3DD0003BECE1 /* icon_resto@2x.png in Resources */,
+				1819447A19CF3DD0003BECE1 /* pykin_splash.png in Resources */,
+				1819447019CF3DD0003BECE1 /* icon_pykoin.png in Resources */,
+				181943C519CF2DEF003BECE1 /* InfoPlist.strings in Resources */,
+				1819446A19CF3DD0003BECE1 /* icon_cafe.png in Resources */,
+				1819447119CF3DD0003BECE1 /* icon_pykoin@2x.png in Resources */,
+				1819446F19CF3DD0003BECE1 /* icon_pykinite@2x.png in Resources */,
+				181943D819CF2DEF003BECE1 /* Images.xcassets in Resources */,
+				1819447C19CF3DD0003BECE1 /* textbox_body.png in Resources */,
+				1819446B19CF3DD0003BECE1 /* icon_cafe@2x.png in Resources */,
+				181943D619CF2DEF003BECE1 /* Spaceship.png in Resources */,
+				1819447919CF3DD0003BECE1 /* login_facebook@2x.png in Resources */,
+				1819447F19CF3DD0003BECE1 /* textbox_top.png in Resources */,
+				1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */,
+				1819448319CF3FC4003BECE1 /* GoogleMaps.bundle in Resources */,
+				1819446C19CF3DD0003BECE1 /* icon_photo.png in Resources */,
+				1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */,
+				181943CE19CF2DEF003BECE1 /* Main.storyboard in Resources */,
+				1819447219CF3DD0003BECE1 /* icon_resto.png in Resources */,
+				1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */,
+				1819446E19CF3DD0003BECE1 /* icon_pykinite.png in Resources */,
+				1819447519CF3DD0003BECE1 /* icon_star0@2x.png in Resources */,
+				1819446D19CF3DD0003BECE1 /* icon_photo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181943DB19CF2DEF003BECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943E919CF2DEF003BECE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181943B119CF2DEF003BECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181944A119CF681B003BECE1 /* Shop.m in Sources */,
+				181943D419CF2DEF003BECE1 /* MyAppMyScene.m in Sources */,
+				181943D119CF2DEF003BECE1 /* MyAppViewController.m in Sources */,
+				181943CB19CF2DEF003BECE1 /* MyAppAppDelegate.m in Sources */,
+				1819449E19CF45B8003BECE1 /* MapViewController.m in Sources */,
+				181943C719CF2DEF003BECE1 /* main.m in Sources */,
+				1819443019CF33C3003BECE1 /* MapScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181943D919CF2DEF003BECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943EB19CF2DEF003BECE1 /* Pykin_RealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181943E319CF2DEF003BECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181943B419CF2DEF003BECE1 /* Pykin Realm */;
+			targetProxy = 181943E219CF2DEF003BECE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181943C319CF2DEF003BECE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181943C419CF2DEF003BECE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		181943CC19CF2DEF003BECE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181943CD19CF2DEF003BECE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181943E719CF2DEF003BECE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181943E819CF2DEF003BECE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181943EC19CF2DEF003BECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181943ED19CF2DEF003BECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181943EF19CF2DEF003BECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				INFOPLIST_FILE = "Pykin Realm/Pykin Realm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		181943F019CF2DEF003BECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				INFOPLIST_FILE = "Pykin Realm/Pykin Realm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		181943F219CF2DEF003BECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pykin Realm.app/Pykin Realm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		181943F319CF2DEF003BECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pykin Realm.app/Pykin Realm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181943EC19CF2DEF003BECE1 /* Debug */,
+				181943ED19CF2DEF003BECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181943EF19CF2DEF003BECE1 /* Debug */,
+				181943F019CF2DEF003BECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181943F219CF2DEF003BECE1 /* Debug */,
+				181943F319CF2DEF003BECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181943AD19CF2DEF003BECE1 /* Project object */;
+}
