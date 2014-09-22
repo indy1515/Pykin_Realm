@@ -99,8 +99,14 @@
 //    [self.navigationController pushViewController:vc2]
     MapViewController *viewController = [[MapViewController alloc] init];
     UIViewController *vc = self.view.window.rootViewController;
-    [vc presentViewController:viewController animated:YES completion:nil];
-    
+    MapViewController *VC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"MapController"];
+    VC2.delegate = self;
+//    [self.navigationController pushViewController:viewController animated:YES];
+    [self presentViewController:VC2 animated:YES completion:^{
+        //  [loadingView startAnimating];
+        NSLog(@"completion fired");
+    }];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -43,7 +43,7 @@
     
     [self.view insertSubview:mapView atIndex:0];
     [self.pykion setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
-    self.pykion.text = @"100";
+    self.pykion.text = @"100";  
 //    NSArray *check = [UIFont familyNames];
 //    NSLog(@"%@",check);
     mapView.delegate = self;
@@ -52,7 +52,7 @@
     
     [self.name setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
     self.name.text = @"VAREE";
-    
+    NSLog(@"Setup");
     
     self.userImg.layer.cornerRadius = self.userImg.frame.size.width / 2;
     self.userImg.clipsToBounds = YES;

@@ -33,7 +33,7 @@
         <!--Map View Controller-->
         <scene sceneID="aLz-dz-9Wy">
             <objects>
-                <viewController storyboardIdentifier="MapController" id="aNW-Oz-KpU" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aNW-Oz-KpU" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aQs-wX-1pN"/>
                         <viewControllerLayoutGuide type="bottom" id="bkI-6y-5r6"/>
@@ -100,7 +100,7 @@
         <!--Rank View Controller-->
         <scene sceneID="A8U-kv-rx5">
             <objects>
-                <viewController id="73B-BU-THq" customClass="RankViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RankController" id="73B-BU-THq" customClass="RankViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3GS-Fu-Cgq"/>
                         <viewControllerLayoutGuide type="bottom" id="vrp-f0-HGS"/>
