@@ -80,25 +80,8 @@
     }
 }
 - (void)toMapViewController{
-    // Present the scene.
-    // Create a GMSCameraPosition that tells the map to display the
-    // coordinate -33.86,151.20 at zoom level 6.
-//    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-//                                                            longitude:151.20
-//                                                                 zoom:6];
-//    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-//    mapView.myLocationEnabled = YES;
-//    self.view = mapView;
-//    
-//    // Creates a marker in the center of the map.
-//    GMSMarker *marker = [[GMSMarker alloc] init];
-//    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-//    marker.title = @"Sydney";
-//    marker.snippet = @"Australia";
-//    marker.map = mapView;
-//    [self.navigationController pushViewController:vc2]
-    MapViewController *viewController = [[MapViewController alloc] init];
-    UIViewController *vc = self.view.window.rootViewController;
+
+
     MapViewController *VC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"MapController"];
     VC2.delegate = self;
 //    [self.navigationController pushViewController:viewController animated:YES];

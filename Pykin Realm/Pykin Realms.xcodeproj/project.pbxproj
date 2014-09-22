@@ -76,7 +76,7 @@
 		18E9501819CF91FA0007E903 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9501719CF91FA0007E903 /* InfoWindow.xib */; };
 		18E9502419D015100007E903 /* Bariol_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502319D015100007E903 /* Bariol_Light.otf */; };
 		18E9503119D01A0C0007E903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181943CC19CF2DEF003BECE1 /* Main.storyboard */; };
-		18E9503419D01B500007E903 /* Pykin RealmTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181943E619CF2DEF003BECE1 /* Pykin RealmTests-Info.plist */; };
+		18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +90,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181943B519CF2DEF003BECE1 /* Pykin Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pykin Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181943B519CF2DEF003BECE1 /* Pykin Realms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pykin Realms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181943B819CF2DEF003BECE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		181943BA19CF2DEF003BECE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		181943BC19CF2DEF003BECE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		181943BE19CF2DEF003BECE1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		181943C219CF2DEF003BECE1 /* Pykin Realm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin Realm-Info.plist"; sourceTree = "<group>"; };
+		181943C219CF2DEF003BECE1 /* Pykin Realms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin Realms-Info.plist"; sourceTree = "<group>"; };
 		181943C419CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		181943C619CF2DEF003BECE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181943C819CF2DEF003BECE1 /* Pykin Realm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pykin Realm-Prefix.pch"; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 		181943D319CF2DEF003BECE1 /* MyAppMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppMyScene.m; sourceTree = "<group>"; };
 		181943D519CF2DEF003BECE1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		181943D719CF2DEF003BECE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pykin RealmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pykin RealmsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181943DE19CF2DEF003BECE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		181943E619CF2DEF003BECE1 /* Pykin RealmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin RealmTests-Info.plist"; sourceTree = "<group>"; };
+		181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin RealmsTests-Info.plist"; sourceTree = "<group>"; };
 		181943E819CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pykin_RealmTests.m; sourceTree = "<group>"; };
 		1819442E19CF33C3003BECE1 /* MapScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScene.h; sourceTree = "<group>"; };
@@ -165,6 +165,7 @@
 		18B3CA4219D03522009DFC74 /* textbox_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_full.png; sourceTree = "<group>"; };
 		18B3CA4419D03862009DFC74 /* CustomInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInfoWindow.h; sourceTree = "<group>"; };
 		18B3CA4519D03862009DFC74 /* CustomInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInfoWindow.m; sourceTree = "<group>"; };
+		18B3CA4719D059B7009DFC74 /* TestLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TestLocation.gpx; sourceTree = "<group>"; };
 		18E9501719CF91FA0007E903 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
 		18E9501E19D014510007E903 /* Bariol_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular.otf; sourceTree = "<group>"; };
 		18E9501F19D014510007E903 /* Bariol_Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Thin.otf; sourceTree = "<group>"; };
@@ -226,8 +227,8 @@
 		181943B619CF2DEF003BECE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181943B519CF2DEF003BECE1 /* Pykin Realm.app */,
-				181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */,
+				181943B519CF2DEF003BECE1 /* Pykin Realms.app */,
+				181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,6 +267,7 @@
 				181943CC19CF2DEF003BECE1 /* Main.storyboard */,
 				181943CF19CF2DEF003BECE1 /* MyAppViewController.h */,
 				181943D019CF2DEF003BECE1 /* MyAppViewController.m */,
+				18B3CA4719D059B7009DFC74 /* TestLocation.gpx */,
 				18B3CA3F19D02E35009DFC74 /* RankViewController.h */,
 				18B3CA4019D02E35009DFC74 /* RankViewController.m */,
 				18E9501719CF91FA0007E903 /* InfoWindow.xib */,
@@ -289,7 +291,7 @@
 		181943C119CF2DEF003BECE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				181943C219CF2DEF003BECE1 /* Pykin Realm-Info.plist */,
+				181943C219CF2DEF003BECE1 /* Pykin Realms-Info.plist */,
 				181943C319CF2DEF003BECE1 /* InfoPlist.strings */,
 				181943C619CF2DEF003BECE1 /* main.m */,
 				181943C819CF2DEF003BECE1 /* Pykin Realm-Prefix.pch */,
@@ -309,7 +311,7 @@
 		181943E519CF2DEF003BECE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				181943E619CF2DEF003BECE1 /* Pykin RealmTests-Info.plist */,
+				181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */,
 				181943E719CF2DEF003BECE1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -382,9 +384,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		181943B419CF2DEF003BECE1 /* Pykin Realm */ = {
+		181943B419CF2DEF003BECE1 /* Pykin Realms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realm" */;
+			buildConfigurationList = 181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realms" */;
 			buildPhases = (
 				181943B119CF2DEF003BECE1 /* Sources */,
 				181943B219CF2DEF003BECE1 /* Frameworks */,
@@ -394,14 +396,14 @@
 			);
 			dependencies = (
 			);
-			name = "Pykin Realm";
+			name = "Pykin Realms";
 			productName = "Pykin Realm";
-			productReference = 181943B519CF2DEF003BECE1 /* Pykin Realm.app */;
+			productReference = 181943B519CF2DEF003BECE1 /* Pykin Realms.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181943DC19CF2DEF003BECE1 /* Pykin RealmTests */ = {
+		181943DC19CF2DEF003BECE1 /* Pykin RealmsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmTests" */;
+			buildConfigurationList = 181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmsTests" */;
 			buildPhases = (
 				181943D919CF2DEF003BECE1 /* Sources */,
 				181943DA19CF2DEF003BECE1 /* Frameworks */,
@@ -412,9 +414,9 @@
 			dependencies = (
 				181943E319CF2DEF003BECE1 /* PBXTargetDependency */,
 			);
-			name = "Pykin RealmTests";
+			name = "Pykin RealmsTests";
 			productName = "Pykin RealmTests";
-			productReference = 181943DD19CF2DEF003BECE1 /* Pykin RealmTests.xctest */;
+			productReference = 181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -432,7 +434,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realm" */;
+			buildConfigurationList = 181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -445,8 +447,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				181943B419CF2DEF003BECE1 /* Pykin Realm */,
-				181943DC19CF2DEF003BECE1 /* Pykin RealmTests */,
+				181943B419CF2DEF003BECE1 /* Pykin Realms */,
+				181943DC19CF2DEF003BECE1 /* Pykin RealmsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -457,7 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18642C8119D01CCD00A78CB9 /* InfoPlist.strings in Resources */,
-				18E9503419D01B500007E903 /* Pykin RealmTests-Info.plist in Resources */,
+				18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */,
 				18E9503119D01A0C0007E903 /* Main.storyboard in Resources */,
 				1819447E19CF3DD0003BECE1 /* textbox_point.png in Resources */,
 				18B3CA3A19D02DB3009DFC74 /* 225e81427d7b7fc51f81100c6b9e5127.jpg in Resources */,
@@ -538,7 +540,7 @@
 /* Begin PBXTargetDependency section */
 		181943E319CF2DEF003BECE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 181943B419CF2DEF003BECE1 /* Pykin Realm */;
+			target = 181943B419CF2DEF003BECE1 /* Pykin Realms */;
 			targetProxy = 181943E219CF2DEF003BECE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -654,9 +656,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
-				INFOPLIST_FILE = "Pykin Realm/Pykin Realm-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realms-Prefix.pch";
+				INFOPLIST_FILE = "Pykin Realm/Pykin Realms-Info.plist";
+				PRODUCT_NAME = "Pykin Realms";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -672,9 +674,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
-				INFOPLIST_FILE = "Pykin Realm/Pykin Realm-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realms-Prefix.pch";
+				INFOPLIST_FILE = "Pykin Realm/Pykin Realms-Info.plist";
+				PRODUCT_NAME = "Pykin Realms";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -695,8 +697,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmsTests-Info.plist";
+				PRODUCT_NAME = "Pykin RealmsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -713,8 +715,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
-				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmsTests-Info.plist";
+				PRODUCT_NAME = "Pykin RealmsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -723,7 +725,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realm" */ = {
+		181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181943EC19CF2DEF003BECE1 /* Debug */,
@@ -732,7 +734,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realm" */ = {
+		181943EE19CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin Realms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181943EF19CF2DEF003BECE1 /* Debug */,
@@ -741,7 +743,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmTests" */ = {
+		181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181943F219CF2DEF003BECE1 /* Debug */,

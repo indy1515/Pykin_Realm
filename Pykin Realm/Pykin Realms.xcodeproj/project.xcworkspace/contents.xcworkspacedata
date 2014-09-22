@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pykin Realm.xcodeproj">
+      location = "self:Pykin Realms.xcodeproj">
    </FileRef>
 </Workspace>

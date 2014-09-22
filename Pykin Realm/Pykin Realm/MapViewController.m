@@ -32,11 +32,11 @@
     [self initializeImage];
     // Configure the view.
     
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:13.734875
-                                                            longitude:100.532628
-                                                                 zoom:16.5];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:13.73897
+                                                            longitude:100.53108
+                                                                 zoom:15];
     mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
-    
+
     mapView.myLocationEnabled = YES;
     mapView.settings.myLocationButton = YES;
     mapView.settings.compassButton = YES;
@@ -92,6 +92,8 @@
 - (void)viewDidAppear:(BOOL)animated {
     // This padding will be observed by the mapView
     mapView.padding = UIEdgeInsetsMake(64, 0, 0, 0);
+    [mapView animateToCameraPosition:[GMSCameraPosition cameraWithTarget:[mapView myLocation].coordinate zoom:16.5f]];
+//    [mapView setCamera:[GMSCameraPosition cameraWithTarget:[mapView myLocation].coordinate zoom:16.5f]];
 }
 
 - (UIView *) mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker{
