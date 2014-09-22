@@ -10,7 +10,7 @@
 #import "MapScene.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import "Shop.h"
-
+#import "CustomInfoWindow.h"
 
 @implementation MapViewController{
     GMSMapView *mapView;
@@ -36,11 +36,28 @@
                                                             longitude:100.532628
                                                                  zoom:16.5];
     mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
+    
     mapView.myLocationEnabled = YES;
     mapView.settings.myLocationButton = YES;
-    [self.view insertSubview:mapView atIndex:0];
-   
+    mapView.settings.compassButton = YES;
     
+    [self.view insertSubview:mapView atIndex:0];
+    [self.pykion setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
+    self.pykion.text = @"100";
+//    NSArray *check = [UIFont familyNames];
+//    NSLog(@"%@",check);
+    mapView.delegate = self;
+    [self.pykinite setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
+    self.pykinite.text = @"20";
+    
+    [self.name setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
+    self.name.text = @"VAREE";
+    
+    
+    self.userImg.layer.cornerRadius = self.userImg.frame.size.width / 2;
+    self.userImg.clipsToBounds = YES;
+    self.userImg.layer.borderWidth = 3.0f;
+    self.userImg.layer.borderColor = [UIColor whiteColor].CGColor;
     
     // Creates a marker in the center of the map.
 //    for(int i = 0; i < );
@@ -58,8 +75,10 @@
         marker.appearAnimation = kGMSMarkerAnimationPop;
         marker.position = s.latLng;
         marker.title = s.name;
+        marker.infoWindowAnchor = CGPointMake(0.44f, 0.45f);
 //        marker.snippet = @"Australia";
         marker.map = mapView;
+        [self mapView:mapView markerInfoWindow:marker];
         
     }
     
@@ -67,6 +86,20 @@
     
     
     
+}
+
+
+- (void)viewDidAppear:(BOOL)animated {
+    // This padding will be observed by the mapView
+    mapView.padding = UIEdgeInsetsMake(64, 0, 0, 0);
+}
+
+- (UIView *) mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker{
+    CustomInfoWindow *infoWindow = [[[NSBundle mainBundle] loadNibNamed:@"InfoWindow" owner:self options:nil] objectAtIndex:0 ];
+    infoWindow.name.text = marker.title.uppercaseString;
+    [infoWindow.name setFont:[UIFont fontWithName:@"UGO-COLOR" size:20]];
+    
+    return infoWindow;
 }
 
 - (void) initializeImage{

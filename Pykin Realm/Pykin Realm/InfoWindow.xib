@@ -6,18 +6,62 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomInfoWindow">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="110"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRn-r4-GKa">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="textbox_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="cRn-r4-GKa">
+                    <rect key="frame" x="0.0" y="0.0" width="263" height="110"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2ql-eP-nFN">
+                    <rect key="frame" x="222" y="55" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MAHITALADHIBETSA CANTEEN" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="179" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-2n-aAr">
+                    <rect key="frame" x="20" y="7" width="179" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="abe-gh-zeC">
+                    <rect key="frame" x="20" y="60" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="5gy-1G-Pbx">
+                    <rect key="frame" x="43" y="60" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="9cY-Ov-CS5">
+                    <rect key="frame" x="66" y="60" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="d68-bp-81u">
+                    <rect key="frame" x="89" y="60" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star0.png" translatesAutoresizingMaskIntoConstraints="NO" id="c1c-TX-jea">
+                    <rect key="frame" x="112" y="60" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="image" destination="2ql-eP-nFN" id="xXI-g3-EWU"/>
+                <outlet property="name" destination="cSb-2n-aAr" id="VN4-fL-HTL"/>
+                <outlet property="star1" destination="abe-gh-zeC" id="dtt-0U-dug"/>
+                <outlet property="star2" destination="5gy-1G-Pbx" id="pSp-cL-Tvk"/>
+                <outlet property="star3" destination="9cY-Ov-CS5" id="GKy-OB-DGC"/>
+                <outlet property="star4" destination="d68-bp-81u" id="OgN-zp-6aU"/>
+                <outlet property="star5" destination="c1c-TX-jea" id="f69-nD-Lda"/>
+            </connections>
         </view>
     </objects>
+    <resources>
+        <image name="icon_photo.png" width="64" height="66"/>
+        <image name="icon_star0.png" width="64" height="62"/>
+        <image name="textbox_full.png" width="603" height="223"/>
+    </resources>
 </document>
