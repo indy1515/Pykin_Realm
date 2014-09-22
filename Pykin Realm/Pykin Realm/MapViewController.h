@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
 @interface MapViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *UpperContainer;
 
 @end

@@ -63,6 +63,8 @@
 		1819449B19CF4054003BECE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449A19CF4054003BECE1 /* SystemConfiguration.framework */; };
 		1819449E19CF45B8003BECE1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819449D19CF45B8003BECE1 /* MapViewController.m */; };
 		181944A119CF681B003BECE1 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 181944A019CF681B003BECE1 /* Shop.m */; };
+		18E9501819CF91FA0007E903 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9501719CF91FA0007E903 /* InfoWindow.xib */; };
+		18E9501B19D000080007E903 /* UGO-COLOR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9501A19D000080007E903 /* UGO-COLOR.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +143,8 @@
 		1819449D19CF45B8003BECE1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		1819449F19CF681B003BECE1 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
 		181944A019CF681B003BECE1 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		18E9501719CF91FA0007E903 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		18E9501A19D000080007E903 /* UGO-COLOR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UGO-COLOR.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +239,7 @@
 				181943CC19CF2DEF003BECE1 /* Main.storyboard */,
 				181943CF19CF2DEF003BECE1 /* MyAppViewController.h */,
 				181943D019CF2DEF003BECE1 /* MyAppViewController.m */,
+				18E9501719CF91FA0007E903 /* InfoWindow.xib */,
 				1819449C19CF45B8003BECE1 /* MapViewController.h */,
 				1819449D19CF45B8003BECE1 /* MapViewController.m */,
 				1819449F19CF681B003BECE1 /* Shop.h */,
@@ -282,6 +287,7 @@
 		1819445119CF3DD0003BECE1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18E9501919D000080007E903 /* Fonts */,
 				1819445219CF3DD0003BECE1 /* image */,
 				1819446519CF3DD0003BECE1 /* textbox */,
 			);
@@ -323,6 +329,14 @@
 				1819446919CF3DD0003BECE1 /* textbox_top.png */,
 			);
 			path = textbox;
+			sourceTree = "<group>";
+		};
+		18E9501919D000080007E903 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18E9501A19D000080007E903 /* UGO-COLOR.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,12 +435,14 @@
 				1819447F19CF3DD0003BECE1 /* textbox_top.png in Resources */,
 				1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */,
 				1819448319CF3FC4003BECE1 /* GoogleMaps.bundle in Resources */,
+				18E9501819CF91FA0007E903 /* InfoWindow.xib in Resources */,
 				1819446C19CF3DD0003BECE1 /* icon_photo.png in Resources */,
 				1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */,
 				181943CE19CF2DEF003BECE1 /* Main.storyboard in Resources */,
 				1819447219CF3DD0003BECE1 /* icon_resto.png in Resources */,
 				1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */,
 				1819446E19CF3DD0003BECE1 /* icon_pykinite.png in Resources */,
+				18E9501B19D000080007E903 /* UGO-COLOR.otf in Resources */,
 				1819447519CF3DD0003BECE1 /* icon_star0@2x.png in Resources */,
 				1819446D19CF3DD0003BECE1 /* icon_photo@2x.png in Resources */,
 			);
@@ -670,6 +686,7 @@
 				181943F019CF2DEF003BECE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmTests" */ = {
 			isa = XCConfigurationList;
@@ -678,6 +695,7 @@
 				181943F319CF2DEF003BECE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

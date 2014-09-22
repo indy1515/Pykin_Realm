@@ -40,14 +40,34 @@
                     <view key="view" contentMode="scaleToFill" id="Whd-De-n28" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wC6-LB-MVU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_pykoin.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Zh-wz-hcK">
+                                        <rect key="frame" x="175" y="29" width="26" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.96862745098039216" blue="0.89411764705882346" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.5" y="0.0" width="1" height="1"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="UpperContainer" destination="wC6-LB-MVU" id="o3V-pj-YK4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zL-SO-0id" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="621" y="-52"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_pykoin.png" width="50" height="51"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

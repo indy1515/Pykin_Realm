@@ -35,10 +35,11 @@
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:13.734875
                                                             longitude:100.532628
                                                                  zoom:16.5];
-    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
     mapView.myLocationEnabled = YES;
     mapView.settings.myLocationButton = YES;
-    self.view = mapView;
+    [self.view insertSubview:mapView atIndex:0];
+   
     
     
     // Creates a marker in the center of the map.
@@ -85,10 +86,114 @@
     type = [[NSMutableArray alloc] initWithCapacity:0];
     
     [names addObject:@"Aksorn Fried Chicken 2"];
-    
     [lat addObject:[NSNumber numberWithDouble:13.736928]];
     [lng addObject:[NSNumber numberWithDouble:100.534207]];
     [type addObject:REST];
+
+    [names addObject:@"Rujisri"];
+    [lat addObject:[NSNumber numberWithDouble:13.736867]];
+    [lng addObject:[NSNumber numberWithDouble:100.524193]];
+    [type addObject:REST];
+    
+    [names addObject:@"Today Steak"];
+    [lat addObject:[NSNumber numberWithDouble:13.736838]];
+    [lng addObject:[NSNumber numberWithDouble:100.534175]];
+    [type addObject:REST];
+    
+    [names addObject:@"Parabola"];
+    [lat addObject:[NSNumber numberWithDouble:13.736744]];
+    [lng addObject:[NSNumber numberWithDouble:100.534117]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Tam-Sung"];
+    [lat addObject:[NSNumber numberWithDouble:13.733704]];
+    [lng addObject:[NSNumber numberWithDouble:100.531844]];
+    [type addObject:REST];
+    
+    [names addObject:@"Nam-Pun"];
+    [lat addObject:[NSNumber numberWithDouble:13.733619]];
+    [lng addObject:[NSNumber numberWithDouble:100.531835]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Noodle Tomyum"];
+    [lat addObject:[NSNumber numberWithDouble:13.733759]];
+    [lng addObject:[NSNumber numberWithDouble:100.531856]];
+    [type addObject:REST];
+    
+    [names addObject:@"Som-Tum"];
+    [lat addObject:[NSNumber numberWithDouble:13.733758]];
+    [lng addObject:[NSNumber numberWithDouble:100.531856]];
+    [type addObject:REST];
+    
+    [names addObject:@"Snack Bar"];
+    [lat addObject:[NSNumber numberWithDouble:13.739169]];
+    [lng addObject:[NSNumber numberWithDouble:100.534590]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Drinks no.1"];
+    [lat addObject:[NSNumber numberWithDouble:13.739096]];
+    [lng addObject:[NSNumber numberWithDouble:100.534581]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Noodle Tomyum"];
+    [lat addObject:[NSNumber numberWithDouble:13.739093]];
+    [lng addObject:[NSNumber numberWithDouble:100.534588]];
+    [type addObject:REST];
+    
+    [names addObject:@"Rice & Curry"];
+    [lat addObject:[NSNumber numberWithDouble:13.739049]];
+    [lng addObject:[NSNumber numberWithDouble:100.534584]];
+    [type addObject:REST];
+    
+    [names addObject:@"Aksorn Fried Chicken 1"];
+    [lat addObject:[NSNumber numberWithDouble:13.739002]];
+    [lng addObject:[NSNumber numberWithDouble:100.534578]];
+    [type addObject:REST];
+    
+    [names addObject:@"Rice & Curry 2"];
+    [lat addObject:[NSNumber numberWithDouble:13.738997]];
+    [lng addObject:[NSNumber numberWithDouble:100.534572]];
+    [type addObject:REST];
+    
+    [names addObject:@"Islamic a lar carte"];
+    [lat addObject:[NSNumber numberWithDouble:13.738979]];
+    [lng addObject:[NSNumber numberWithDouble:100.534563]];
+    [type addObject:REST];
+    
+    [names addObject:@"Drinks no.2"];
+    [lat addObject:[NSNumber numberWithDouble:13.738939]];
+    [lng addObject:[NSNumber numberWithDouble:100.534553]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Cafe"];
+    [lat addObject:[NSNumber numberWithDouble:13.739917]];
+    [lng addObject:[NSNumber numberWithDouble:100.531084]];
+    [type addObject:CAFE];
+    
+    [names addObject:@"Noodles"];
+    [lat addObject:[NSNumber numberWithDouble:13.739912]];
+    [lng addObject:[NSNumber numberWithDouble:100.531109]];
+    [type addObject:REST];
+    
+    [names addObject:@"Up to you 1"];
+    [lat addObject:[NSNumber numberWithDouble:13.739903]];
+    [lng addObject:[NSNumber numberWithDouble:100.531163]];
+    [type addObject:REST];
+    
+    [names addObject:@"Up 2 you 2"];
+    [lat addObject:[NSNumber numberWithDouble:13.739906]];
+    [lng addObject:[NSNumber numberWithDouble:100.531169]];
+    [type addObject:REST]; 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     
     
 }
