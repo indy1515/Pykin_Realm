@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@protocol ViewController2Delegate <NSObject>
+@end
 @interface RankViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *fifth;
 @property (weak, nonatomic) IBOutlet UIImageView *fourth;
@@ -15,5 +16,5 @@
 @property (weak, nonatomic) IBOutlet UIImageView *second;
 
 @property (weak, nonatomic) IBOutlet UIImageView *first;
-
+@property (nonatomic, weak) id<ViewController2Delegate>delegate;
 @end

@@ -50,6 +50,10 @@
     self.fifth.layer.borderColor = [UIColor whiteColor].CGColor;
 }
 
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

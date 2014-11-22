@@ -11,7 +11,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 @protocol ViewController2Delegate <NSObject>
 @end
-@interface MapViewController : UIViewController <GMSMapViewDelegate>
+@interface MapViewController : UIViewController <GMSMapViewDelegate,ViewController2Delegate>
 
 @property (weak, nonatomic) IBOutlet UIView *UpperContainer;
 @property (weak, nonatomic) IBOutlet UILabel *pykion;

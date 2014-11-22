@@ -24,14 +24,14 @@
         
         
         NSLog(@"App");
-        
+//        
         SKSpriteNode *login = [SKSpriteNode spriteNodeWithImageNamed:@"login_facebook.png"];
         login.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame)/4);
-        login.name = @"login";
+//        login.name = @"login";
 
-
+        NSLog(@"Real: %f",CGRectGetMidY(self.frame)/4);
         [self addChild:sn];
-        [self addChild:login];
+//        [self addChild:login];
     }
     return self;
 }

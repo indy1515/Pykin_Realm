@@ -8,13 +8,37 @@
 
 #import "MyAppAppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import <Parse/Parse.h>
+
 @implementation MyAppAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyCHONNsxb3fTOBH5lD1WEfmtW6v0vTaiWA"];
-    return YES;
+    NSError *error;
+    BOOL success = [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:&error];
+    [Parse setApplicationId:@"IqoCnqxVoAx8MeNHIz8fodFpyPPIlrXKQSjPMDFZ"
+                  clientKey:@"5EpkiDnwY3wsdFqSixaZ184kkJK3sgoMzWaH61G7"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    if (!success) {
+        //Handle error
+        NSLog(@"%@", [error localizedDescription]);
+    } else {
+        // Yay! It worked!
+        NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"Montmartre" ofType:@"mp3"];
+        NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
+        AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:nil];
+        player.numberOfLoops = -1; //infinite
+        
+        [player play];
+        NSLog(@"Yay it work!");
+    }
+        return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -37,6 +61,8 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+   
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -44,4 +70,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    
+    // Call FBAppCall's handleOpenURL:sourceApplication to handle Facebook app responses
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+    
+    // You can add your app-specific url handling code here if needed
+    
+    return wasHandled;
+}
 @end
