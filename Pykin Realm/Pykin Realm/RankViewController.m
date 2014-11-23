@@ -16,31 +16,6 @@
 
 - (void)viewDidLoad
 {
-    self.first.layer.cornerRadius = self.first.frame.size.width / 2;
-    self.first.clipsToBounds = YES;
-    self.first.layer.borderWidth = 3.0f;
-    self.first.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    self.second.layer.cornerRadius = self.second.frame.size.width / 2;
-    self.second.clipsToBounds = YES;
-    self.second.layer.borderWidth = 3.0f;
-    self.second.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    self.third.layer.cornerRadius = self.third.frame.size.width / 2;
-    self.third.clipsToBounds = YES;
-    self.third.layer.borderWidth = 3.0f;
-    self.third.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    self.fourth.layer.cornerRadius = self.fourth.frame.size.width / 2;
-    self.fourth.clipsToBounds = YES;
-    self.fourth.layer.borderWidth = 3.0f;
-    self.fourth.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    self.fifth.layer.cornerRadius = self.fifth.frame.size.width / 2;
-    self.fifth.clipsToBounds = YES;
-    self.fifth.layer.borderWidth = 3.0f;
-    self.fifth.layer.borderColor = [UIColor whiteColor].CGColor;
-    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     

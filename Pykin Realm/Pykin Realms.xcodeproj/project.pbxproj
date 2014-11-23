@@ -18,6 +18,11 @@
 		181943D419CF2DEF003BECE1 /* MyAppMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943D319CF2DEF003BECE1 /* MyAppMyScene.m */; };
 		181943D619CF2DEF003BECE1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 181943D519CF2DEF003BECE1 /* Spaceship.png */; };
 		181943D819CF2DEF003BECE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181943D719CF2DEF003BECE1 /* Images.xcassets */; };
+		181943DF19CF2DEF003BECE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943DE19CF2DEF003BECE1 /* XCTest.framework */; };
+		181943E019CF2DEF003BECE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943B819CF2DEF003BECE1 /* Foundation.framework */; };
+		181943E119CF2DEF003BECE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181943BC19CF2DEF003BECE1 /* UIKit.framework */; };
+		181943E919CF2DEF003BECE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181943E719CF2DEF003BECE1 /* InfoPlist.strings */; };
+		181943EB19CF2DEF003BECE1 /* Pykin_RealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */; };
 		1819443019CF33C3003BECE1 /* MapScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819442F19CF33C3003BECE1 /* MapScene.m */; };
 		1819446A19CF3DD0003BECE1 /* icon_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445319CF3DD0003BECE1 /* icon_cafe.png */; };
 		1819446B19CF3DD0003BECE1 /* icon_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445419CF3DD0003BECE1 /* icon_cafe@2x.png */; };
@@ -57,7 +62,6 @@
 		1819449B19CF4054003BECE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819449A19CF4054003BECE1 /* SystemConfiguration.framework */; };
 		1819449E19CF45B8003BECE1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819449D19CF45B8003BECE1 /* MapViewController.m */; };
 		181944A119CF681B003BECE1 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 181944A019CF681B003BECE1 /* Shop.m */; };
-		182581731A21A47F00AE84DA /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 182581721A21A47F00AE84DA /* icon_back.png */; };
 		182B9B8D1A1142DD0082E5D4 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182B9B8C1A1142DD0082E5D4 /* ParseFacebookUtils.framework */; };
 		182B9B8F1A11E82F0082E5D4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B9B8E1A11E82F0082E5D4 /* HeaderView.xib */; };
 		182B9B921A11EB4A0082E5D4 /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B9B911A11EB4A0082E5D4 /* HeaderViewController.m */; };
@@ -74,10 +78,12 @@
 		184978E419D11E9D0079DF59 /* checkin_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 184978E119D11E9D0079DF59 /* checkin_button.png */; };
 		184978E619D11EAB0079DF59 /* mahit.png in Resources */ = {isa = PBXBuildFile; fileRef = 184978E519D11EAB0079DF59 /* mahit.png */; };
 		184978E819D122830079DF59 /* pykin_graybar.png in Resources */ = {isa = PBXBuildFile; fileRef = 184978E719D122830079DF59 /* pykin_graybar.png */; };
+		184978EA19D132B10079DF59 /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 184978E919D132B10079DF59 /* icon_back.png */; };
 		184978ED19D141DD0079DF59 /* Montmartre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 184978EC19D141DD0079DF59 /* Montmartre.mp3 */; };
 		185DFDD719F3BB7C000F5FFE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DFDD619F3BB7C000F5FFE /* FacebookSDK.framework */; };
 		18642C8119D01CCD00A78CB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181943E719CF2DEF003BECE1 /* InfoPlist.strings */; };
 		18642C8219D01D3400A78CB9 /* UGO-COLOR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502919D016B20007E903 /* UGO-COLOR.otf */; };
+		18642C8319D01D3C00A78CB9 /* UGO-COLOR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502919D016B20007E903 /* UGO-COLOR.otf */; };
 		18B3CA4119D02E35009DFC74 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3CA4019D02E35009DFC74 /* RankViewController.m */; };
 		18B3CA4319D03522009DFC74 /* textbox_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B3CA4219D03522009DFC74 /* textbox_full.png */; };
 		18B3CA4619D03862009DFC74 /* CustomInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3CA4519D03862009DFC74 /* CustomInfoWindow.m */; };
@@ -91,20 +97,17 @@
 		18E9502419D015100007E903 /* Bariol_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502319D015100007E903 /* Bariol_Light.otf */; };
 		18E9503119D01A0C0007E903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181943CC19CF2DEF003BECE1 /* Main.storyboard */; };
 		18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */; };
-		18F49A221A21B79A00A1B0EF /* pykin_beigebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A211A21B79A00A1B0EF /* pykin_beigebar.png */; };
-		18F49A261A21BAED00A1B0EF /* action_checkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A231A21BAED00A1B0EF /* action_checkin.png */; };
-		18F49A271A21BAED00A1B0EF /* action_review.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A241A21BAED00A1B0EF /* action_review.png */; };
-		18F49A281A21BAED00A1B0EF /* action_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A251A21BAED00A1B0EF /* action_share.png */; };
-		18F49A391A21BB0800A1B0EF /* login_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A301A21BB0800A1B0EF /* login_facebook@2x.png */; };
-		18F49A3A1A21BB0800A1B0EF /* pykin_splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A311A21BB0800A1B0EF /* pykin_splash@2x.png */; };
-		18F49A3D1A21BB3A00A1B0EF /* menu_fwd.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A3B1A21BB3A00A1B0EF /* menu_fwd.png */; };
-		18F49A3E1A21BB3A00A1B0EF /* menu_grayoverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A3C1A21BB3A00A1B0EF /* menu_grayoverlay.png */; };
-		18F49A451A21BD9500A1B0EF /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A411A21BD9500A1B0EF /* header.png */; };
-		18F49A461A21BD9500A1B0EF /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A421A21BD9500A1B0EF /* header@2x.png */; };
-		18F49A491A21BE5400A1B0EF /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A471A21BE5400A1B0EF /* footer.png */; };
-		18F49A4A1A21BE5400A1B0EF /* footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A481A21BE5400A1B0EF /* footer@2x.png */; };
-		18F49A4C1A21C0D700A1B0EF /* icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A4B1A21C0D700A1B0EF /* icon_close.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181943E219CF2DEF003BECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181943AD19CF2DEF003BECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181943B419CF2DEF003BECE1;
+			remoteInfo = "Pykin Realm";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		181943B519CF2DEF003BECE1 /* Pykin Realms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pykin Realms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +128,7 @@
 		181943D319CF2DEF003BECE1 /* MyAppMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppMyScene.m; sourceTree = "<group>"; };
 		181943D519CF2DEF003BECE1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		181943D719CF2DEF003BECE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pykin RealmsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181943DE19CF2DEF003BECE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin RealmsTests-Info.plist"; sourceTree = "<group>"; };
 		181943E819CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -171,7 +175,6 @@
 		1819449D19CF45B8003BECE1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		1819449F19CF681B003BECE1 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
 		181944A019CF681B003BECE1 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
-		182581721A21A47F00AE84DA /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_back.png; path = "../../../../../../../../Dropbox/pykin realms/resources/normal/icon_back.png"; sourceTree = "<group>"; };
 		182B9B8C1A1142DD0082E5D4 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		182B9B8E1A11E82F0082E5D4 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		182B9B901A11EB4A0082E5D4 /* HeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
@@ -191,6 +194,7 @@
 		184978E119D11E9D0079DF59 /* checkin_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkin_button.png; sourceTree = "<group>"; };
 		184978E519D11EAB0079DF59 /* mahit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mahit.png; sourceTree = "<group>"; };
 		184978E719D122830079DF59 /* pykin_graybar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pykin_graybar.png; sourceTree = "<group>"; };
+		184978E919D132B10079DF59 /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
 		184978EC19D141DD0079DF59 /* Montmartre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Montmartre.mp3; sourceTree = "<group>"; };
 		185DFDD619F3BB7C000F5FFE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		18B3CA3F19D02E35009DFC74 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
@@ -211,19 +215,6 @@
 		18E9502319D015100007E903 /* Bariol_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bariol_Light.otf; path = "Pykin Realm/Bariol_Light.otf"; sourceTree = SOURCE_ROOT; };
 		18E9502919D016B20007E903 /* UGO-COLOR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UGO-COLOR.otf"; sourceTree = "<group>"; };
 		18E9503319D01A5A0007E903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		18F49A211A21B79A00A1B0EF /* pykin_beigebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pykin_beigebar.png; path = "../../../../../../../../Dropbox/pykin realms/resources/normal/pykin_beigebar.png"; sourceTree = "<group>"; };
-		18F49A231A21BAED00A1B0EF /* action_checkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action_checkin.png; path = "../../../../../../../../Dropbox/pykin realms/resources/actions/action_checkin.png"; sourceTree = "<group>"; };
-		18F49A241A21BAED00A1B0EF /* action_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action_review.png; path = "../../../../../../../../Dropbox/pykin realms/resources/actions/action_review.png"; sourceTree = "<group>"; };
-		18F49A251A21BAED00A1B0EF /* action_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action_share.png; path = "../../../../../../../../Dropbox/pykin realms/resources/actions/action_share.png"; sourceTree = "<group>"; };
-		18F49A301A21BB0800A1B0EF /* login_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_facebook@2x.png"; path = "../../../../../../../../Dropbox/pykin realms/resources/@2x/login_facebook@2x.png"; sourceTree = "<group>"; };
-		18F49A311A21BB0800A1B0EF /* pykin_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pykin_splash@2x.png"; path = "../../../../../../../../Dropbox/pykin realms/resources/@2x/pykin_splash@2x.png"; sourceTree = "<group>"; };
-		18F49A3B1A21BB3A00A1B0EF /* menu_fwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_fwd.png; path = "../../../../../../../../Dropbox/pykin realms/resources/menu/menu_fwd.png"; sourceTree = "<group>"; };
-		18F49A3C1A21BB3A00A1B0EF /* menu_grayoverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_grayoverlay.png; path = "../../../../../../../../Dropbox/pykin realms/resources/menu/menu_grayoverlay.png"; sourceTree = "<group>"; };
-		18F49A411A21BD9500A1B0EF /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = ../../../../../../../../Desktop/header.png; sourceTree = "<group>"; };
-		18F49A421A21BD9500A1B0EF /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "header@2x.png"; path = "../../../../../../../../Desktop/header@2x.png"; sourceTree = "<group>"; };
-		18F49A471A21BE5400A1B0EF /* footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = footer.png; path = ../../../../../../../../Desktop/footer.png; sourceTree = "<group>"; };
-		18F49A481A21BE5400A1B0EF /* footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "footer@2x.png"; path = "../../../../../../../../Desktop/footer@2x.png"; sourceTree = "<group>"; };
-		18F49A4B1A21C0D700A1B0EF /* icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_close.png; path = "../../../../../../../../Dropbox/pykin realms/resources/normal/icon_close.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +250,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		181943DA19CF2DEF003BECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943DF19CF2DEF003BECE1 /* XCTest.framework in Frameworks */,
+				181943E119CF2DEF003BECE1 /* UIKit.framework in Frameworks */,
+				181943E019CF2DEF003BECE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -278,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				181943B519CF2DEF003BECE1 /* Pykin Realms.app */,
+				181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,17 +399,6 @@
 		1819445219CF3DD0003BECE1 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				18F49A4B1A21C0D700A1B0EF /* icon_close.png */,
-				18F49A471A21BE5400A1B0EF /* footer.png */,
-				18F49A481A21BE5400A1B0EF /* footer@2x.png */,
-				18F49A411A21BD9500A1B0EF /* header.png */,
-				18F49A421A21BD9500A1B0EF /* header@2x.png */,
-				18F49A3B1A21BB3A00A1B0EF /* menu_fwd.png */,
-				18F49A3C1A21BB3A00A1B0EF /* menu_grayoverlay.png */,
-				18F49A301A21BB0800A1B0EF /* login_facebook@2x.png */,
-				18F49A311A21BB0800A1B0EF /* pykin_splash@2x.png */,
-				18F49A211A21B79A00A1B0EF /* pykin_beigebar.png */,
-				182581721A21A47F00AE84DA /* icon_back.png */,
 				184978E719D122830079DF59 /* pykin_graybar.png */,
 				1819445319CF3DD0003BECE1 /* icon_cafe.png */,
 				1819445419CF3DD0003BECE1 /* icon_cafe@2x.png */,
@@ -427,6 +418,7 @@
 				1819446219CF3DD0003BECE1 /* login_facebook@2x.png */,
 				1819446319CF3DD0003BECE1 /* pykin_splash.png */,
 				1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */,
+				184978E919D132B10079DF59 /* icon_back.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -459,9 +451,6 @@
 		184978DE19D11E9D0079DF59 /* checkin */ = {
 			isa = PBXGroup;
 			children = (
-				18F49A231A21BAED00A1B0EF /* action_checkin.png */,
-				18F49A241A21BAED00A1B0EF /* action_review.png */,
-				18F49A251A21BAED00A1B0EF /* action_share.png */,
 				184978E519D11EAB0079DF59 /* mahit.png */,
 				184978DF19D11E9D0079DF59 /* checkedin_bar.png */,
 				184978E019D11E9D0079DF59 /* checkin_bar.png */,
@@ -510,6 +499,24 @@
 			productReference = 181943B519CF2DEF003BECE1 /* Pykin Realms.app */;
 			productType = "com.apple.product-type.application";
 		};
+		181943DC19CF2DEF003BECE1 /* Pykin RealmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmsTests" */;
+			buildPhases = (
+				181943D919CF2DEF003BECE1 /* Sources */,
+				181943DA19CF2DEF003BECE1 /* Frameworks */,
+				181943DB19CF2DEF003BECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181943E319CF2DEF003BECE1 /* PBXTargetDependency */,
+			);
+			name = "Pykin RealmsTests";
+			productName = "Pykin RealmTests";
+			productReference = 181943DD19CF2DEF003BECE1 /* Pykin RealmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -519,6 +526,11 @@
 				CLASSPREFIX = MyApp;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = IndyZa;
+				TargetAttributes = {
+					181943DC19CF2DEF003BECE1 = {
+						TestTargetID = 181943B419CF2DEF003BECE1;
+					};
+				};
 			};
 			buildConfigurationList = 181943B019CF2DEF003BECE1 /* Build configuration list for PBXProject "Pykin Realms" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -534,6 +546,7 @@
 			projectRoot = "";
 			targets = (
 				181943B419CF2DEF003BECE1 /* Pykin Realms */,
+				181943DC19CF2DEF003BECE1 /* Pykin RealmsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -544,31 +557,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				18642C8119D01CCD00A78CB9 /* InfoPlist.strings in Resources */,
-				18F49A271A21BAED00A1B0EF /* action_review.png in Resources */,
 				18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */,
-				18F49A461A21BD9500A1B0EF /* header@2x.png in Resources */,
 				18E9503119D01A0C0007E903 /* Main.storyboard in Resources */,
+				184978EA19D132B10079DF59 /* icon_back.png in Resources */,
 				1819447E19CF3DD0003BECE1 /* textbox_point.png in Resources */,
 				1819447419CF3DD0003BECE1 /* icon_star0.png in Resources */,
 				18E9502419D015100007E903 /* Bariol_Light.otf in Resources */,
 				184978E219D11E9D0079DF59 /* checkedin_bar.png in Resources */,
 				1819447D19CF3DD0003BECE1 /* textbox_bottom.png in Resources */,
-				182581731A21A47F00AE84DA /* icon_back.png in Resources */,
 				182B9B8F1A11E82F0082E5D4 /* HeaderView.xib in Resources */,
 				1819447719CF3DD0003BECE1 /* icon_star1@2x.png in Resources */,
 				1819447319CF3DD0003BECE1 /* icon_resto@2x.png in Resources */,
 				18B3CA4319D03522009DFC74 /* textbox_full.png in Resources */,
 				1819447A19CF3DD0003BECE1 /* pykin_splash.png in Resources */,
 				1819447019CF3DD0003BECE1 /* icon_pykoin.png in Resources */,
-				18F49A3D1A21BB3A00A1B0EF /* menu_fwd.png in Resources */,
 				181943C519CF2DEF003BECE1 /* InfoPlist.strings in Resources */,
-				18F49A261A21BAED00A1B0EF /* action_checkin.png in Resources */,
-				18F49A221A21B79A00A1B0EF /* pykin_beigebar.png in Resources */,
 				1819446A19CF3DD0003BECE1 /* icon_cafe.png in Resources */,
 				1819447119CF3DD0003BECE1 /* icon_pykoin@2x.png in Resources */,
-				18F49A4C1A21C0D700A1B0EF /* icon_close.png in Resources */,
 				184978D219D10FBA0079DF59 /* aey.jpg in Resources */,
-				18F49A3E1A21BB3A00A1B0EF /* menu_grayoverlay.png in Resources */,
 				1819446F19CF3DD0003BECE1 /* icon_pykinite@2x.png in Resources */,
 				181943D819CF2DEF003BECE1 /* Images.xcassets in Resources */,
 				1819447C19CF3DD0003BECE1 /* textbox_body.png in Resources */,
@@ -578,31 +584,34 @@
 				184978DA19D112C10079DF59 /* varee.jpg in Resources */,
 				181943D619CF2DEF003BECE1 /* Spaceship.png in Resources */,
 				184978E319D11E9D0079DF59 /* checkin_bar.png in Resources */,
-				18F49A4A1A21BE5400A1B0EF /* footer@2x.png in Resources */,
 				1819447919CF3DD0003BECE1 /* login_facebook@2x.png in Resources */,
 				1819447F19CF3DD0003BECE1 /* textbox_top.png in Resources */,
 				1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */,
-				18F49A451A21BD9500A1B0EF /* header.png in Resources */,
 				1819448319CF3FC4003BECE1 /* GoogleMaps.bundle in Resources */,
 				18E9501819CF91FA0007E903 /* InfoWindow.xib in Resources */,
 				1819446C19CF3DD0003BECE1 /* icon_photo.png in Resources */,
-				18F49A281A21BAED00A1B0EF /* action_share.png in Resources */,
 				1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */,
 				184978D419D10FBA0079DF59 /* indy.jpg in Resources */,
 				1819447219CF3DD0003BECE1 /* icon_resto.png in Resources */,
 				18642C8219D01D3400A78CB9 /* UGO-COLOR.otf in Resources */,
 				184978ED19D141DD0079DF59 /* Montmartre.mp3 in Resources */,
-				18F49A391A21BB0800A1B0EF /* login_facebook@2x.png in Resources */,
 				184978E619D11EAB0079DF59 /* mahit.png in Resources */,
 				1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */,
 				1819446E19CF3DD0003BECE1 /* icon_pykinite.png in Resources */,
-				18F49A3A1A21BB0800A1B0EF /* pykin_splash@2x.png in Resources */,
-				18F49A491A21BE5400A1B0EF /* footer.png in Resources */,
 				1819447519CF3DD0003BECE1 /* icon_star0@2x.png in Resources */,
 				184978D519D10FBA0079DF59 /* plan.jpg in Resources */,
 				1819446D19CF3DD0003BECE1 /* icon_photo@2x.png in Resources */,
 				184978E819D122830079DF59 /* pykin_graybar.png in Resources */,
 				184978E419D11E9D0079DF59 /* checkin_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181943DB19CF2DEF003BECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943E919CF2DEF003BECE1 /* InfoPlist.strings in Resources */,
+				18642C8319D01D3C00A78CB9 /* UGO-COLOR.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +637,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		181943D919CF2DEF003BECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181943EB19CF2DEF003BECE1 /* Pykin_RealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181943E319CF2DEF003BECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181943B419CF2DEF003BECE1 /* Pykin Realms */;
+			targetProxy = 181943E219CF2DEF003BECE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		181943C319CF2DEF003BECE1 /* InfoPlist.strings */ = {
@@ -736,7 +761,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				ENABLE_NS_ASSERTIONS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -755,7 +779,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -766,6 +789,46 @@
 				PRODUCT_NAME = "Pykin Realms";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		181943F219CF2DEF003BECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pykin Realm.app/Pykin Realm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmsTests-Info.plist";
+				PRODUCT_NAME = "Pykin RealmsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		181943F319CF2DEF003BECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pykin Realm.app/Pykin Realm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pykin Realm/Pykin Realm-Prefix.pch";
+				INFOPLIST_FILE = "Pykin RealmTests/Pykin RealmsTests-Info.plist";
+				PRODUCT_NAME = "Pykin RealmsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -786,6 +849,15 @@
 			buildConfigurations = (
 				181943EF19CF2DEF003BECE1 /* Debug */,
 				181943F019CF2DEF003BECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181943F119CF2DEF003BECE1 /* Build configuration list for PBXNativeTarget "Pykin RealmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181943F219CF2DEF003BECE1 /* Debug */,
+				181943F319CF2DEF003BECE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -35,12 +35,6 @@
 
 - (void)viewDidLoad
 {
-    self.userImg.layer.cornerRadius = self.userImg.frame.size.width / 2;
-    self.userImg.clipsToBounds = YES;
-    self.userImg.layer.borderWidth = 3.0f;
-    self.userImg.layer.borderColor = [UIColor whiteColor].CGColor;
-
-    
     [super viewDidLoad];
     [self initializeArray];
     [self initializeImage];
