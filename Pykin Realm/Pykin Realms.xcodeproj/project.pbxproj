@@ -34,9 +34,7 @@
 		1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819445F19CF3DD0003BECE1 /* icon_star1.png */; };
 		1819447719CF3DD0003BECE1 /* icon_star1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446019CF3DD0003BECE1 /* icon_star1@2x.png */; };
 		1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446119CF3DD0003BECE1 /* login_facebook.png */; };
-		1819447919CF3DD0003BECE1 /* login_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446219CF3DD0003BECE1 /* login_facebook@2x.png */; };
 		1819447A19CF3DD0003BECE1 /* pykin_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446319CF3DD0003BECE1 /* pykin_splash.png */; };
-		1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */; };
 		1819447C19CF3DD0003BECE1 /* textbox_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446619CF3DD0003BECE1 /* textbox_body.png */; };
 		1819447D19CF3DD0003BECE1 /* textbox_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446719CF3DD0003BECE1 /* textbox_bottom.png */; };
 		1819447E19CF3DD0003BECE1 /* textbox_point.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819446819CF3DD0003BECE1 /* textbox_point.png */; };
@@ -91,6 +89,13 @@
 		18E9502419D015100007E903 /* Bariol_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502319D015100007E903 /* Bariol_Light.otf */; };
 		18E9503119D01A0C0007E903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181943CC19CF2DEF003BECE1 /* Main.storyboard */; };
 		18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */; };
+		18F04B031A2253C60067F94A /* icon_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04AFC1A2253C60067F94A /* icon_cafe@2x.png */; };
+		18F04B041A2253C60067F94A /* icon_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04AFD1A2253C60067F94A /* icon_photo@2x.png */; };
+		18F04B051A2253C60067F94A /* icon_pykinite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04AFE1A2253C60067F94A /* icon_pykinite@2x.png */; };
+		18F04B061A2253C60067F94A /* icon_pykoin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04AFF1A2253C60067F94A /* icon_pykoin@2x.png */; };
+		18F04B071A2253C60067F94A /* icon_resto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04B001A2253C60067F94A /* icon_resto@2x.png */; };
+		18F04B081A2253C60067F94A /* icon_star0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04B011A2253C60067F94A /* icon_star0@2x.png */; };
+		18F04B091A2253C60067F94A /* icon_star1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F04B021A2253C60067F94A /* icon_star1@2x.png */; };
 		18F49A221A21B79A00A1B0EF /* pykin_beigebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A211A21B79A00A1B0EF /* pykin_beigebar.png */; };
 		18F49A261A21BAED00A1B0EF /* action_checkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A231A21BAED00A1B0EF /* action_checkin.png */; };
 		18F49A271A21BAED00A1B0EF /* action_review.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F49A241A21BAED00A1B0EF /* action_review.png */; };
@@ -146,9 +151,7 @@
 		1819445F19CF3DD0003BECE1 /* icon_star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star1.png; sourceTree = "<group>"; };
 		1819446019CF3DD0003BECE1 /* icon_star1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star1@2x.png"; sourceTree = "<group>"; };
 		1819446119CF3DD0003BECE1 /* login_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_facebook.png; sourceTree = "<group>"; };
-		1819446219CF3DD0003BECE1 /* login_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_facebook@2x.png"; sourceTree = "<group>"; };
 		1819446319CF3DD0003BECE1 /* pykin_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pykin_splash.png; sourceTree = "<group>"; };
-		1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pykin_splash@2x.png"; sourceTree = "<group>"; };
 		1819446619CF3DD0003BECE1 /* textbox_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_body.png; sourceTree = "<group>"; };
 		1819446719CF3DD0003BECE1 /* textbox_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_bottom.png; sourceTree = "<group>"; };
 		1819446819CF3DD0003BECE1 /* textbox_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_point.png; sourceTree = "<group>"; };
@@ -211,6 +214,13 @@
 		18E9502319D015100007E903 /* Bariol_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bariol_Light.otf; path = "Pykin Realm/Bariol_Light.otf"; sourceTree = SOURCE_ROOT; };
 		18E9502919D016B20007E903 /* UGO-COLOR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UGO-COLOR.otf"; sourceTree = "<group>"; };
 		18E9503319D01A5A0007E903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		18F04AFC1A2253C60067F94A /* icon_cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cafe@2x.png"; sourceTree = "<group>"; };
+		18F04AFD1A2253C60067F94A /* icon_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_photo@2x.png"; sourceTree = "<group>"; };
+		18F04AFE1A2253C60067F94A /* icon_pykinite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pykinite@2x.png"; sourceTree = "<group>"; };
+		18F04AFF1A2253C60067F94A /* icon_pykoin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pykoin@2x.png"; sourceTree = "<group>"; };
+		18F04B001A2253C60067F94A /* icon_resto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_resto@2x.png"; sourceTree = "<group>"; };
+		18F04B011A2253C60067F94A /* icon_star0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star0@2x.png"; sourceTree = "<group>"; };
+		18F04B021A2253C60067F94A /* icon_star1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_star1@2x.png"; sourceTree = "<group>"; };
 		18F49A211A21B79A00A1B0EF /* pykin_beigebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pykin_beigebar.png; path = "../../../../../../../../Dropbox/pykin realms/resources/normal/pykin_beigebar.png"; sourceTree = "<group>"; };
 		18F49A231A21BAED00A1B0EF /* action_checkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action_checkin.png; path = "../../../../../../../../Dropbox/pykin realms/resources/actions/action_checkin.png"; sourceTree = "<group>"; };
 		18F49A241A21BAED00A1B0EF /* action_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action_review.png; path = "../../../../../../../../Dropbox/pykin realms/resources/actions/action_review.png"; sourceTree = "<group>"; };
@@ -397,6 +407,13 @@
 		1819445219CF3DD0003BECE1 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				18F04AFC1A2253C60067F94A /* icon_cafe@2x.png */,
+				18F04AFD1A2253C60067F94A /* icon_photo@2x.png */,
+				18F04AFE1A2253C60067F94A /* icon_pykinite@2x.png */,
+				18F04AFF1A2253C60067F94A /* icon_pykoin@2x.png */,
+				18F04B001A2253C60067F94A /* icon_resto@2x.png */,
+				18F04B011A2253C60067F94A /* icon_star0@2x.png */,
+				18F04B021A2253C60067F94A /* icon_star1@2x.png */,
 				18F49A4B1A21C0D700A1B0EF /* icon_close.png */,
 				18F49A471A21BE5400A1B0EF /* footer.png */,
 				18F49A481A21BE5400A1B0EF /* footer@2x.png */,
@@ -424,9 +441,7 @@
 				1819445F19CF3DD0003BECE1 /* icon_star1.png */,
 				1819446019CF3DD0003BECE1 /* icon_star1@2x.png */,
 				1819446119CF3DD0003BECE1 /* login_facebook.png */,
-				1819446219CF3DD0003BECE1 /* login_facebook@2x.png */,
 				1819446319CF3DD0003BECE1 /* pykin_splash.png */,
-				1819446419CF3DD0003BECE1 /* pykin_splash@2x.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -544,6 +559,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18642C8119D01CCD00A78CB9 /* InfoPlist.strings in Resources */,
+				18F04B091A2253C60067F94A /* icon_star1@2x.png in Resources */,
 				18F49A271A21BAED00A1B0EF /* action_review.png in Resources */,
 				18E9503419D01B500007E903 /* Pykin RealmsTests-Info.plist in Resources */,
 				18F49A461A21BD9500A1B0EF /* header@2x.png in Resources */,
@@ -560,12 +576,14 @@
 				18B3CA4319D03522009DFC74 /* textbox_full.png in Resources */,
 				1819447A19CF3DD0003BECE1 /* pykin_splash.png in Resources */,
 				1819447019CF3DD0003BECE1 /* icon_pykoin.png in Resources */,
+				18F04B061A2253C60067F94A /* icon_pykoin@2x.png in Resources */,
 				18F49A3D1A21BB3A00A1B0EF /* menu_fwd.png in Resources */,
 				181943C519CF2DEF003BECE1 /* InfoPlist.strings in Resources */,
 				18F49A261A21BAED00A1B0EF /* action_checkin.png in Resources */,
 				18F49A221A21B79A00A1B0EF /* pykin_beigebar.png in Resources */,
 				1819446A19CF3DD0003BECE1 /* icon_cafe.png in Resources */,
 				1819447119CF3DD0003BECE1 /* icon_pykoin@2x.png in Resources */,
+				18F04B071A2253C60067F94A /* icon_resto@2x.png in Resources */,
 				18F49A4C1A21C0D700A1B0EF /* icon_close.png in Resources */,
 				184978D219D10FBA0079DF59 /* aey.jpg in Resources */,
 				18F49A3E1A21BB3A00A1B0EF /* menu_grayoverlay.png in Resources */,
@@ -579,15 +597,16 @@
 				181943D619CF2DEF003BECE1 /* Spaceship.png in Resources */,
 				184978E319D11E9D0079DF59 /* checkin_bar.png in Resources */,
 				18F49A4A1A21BE5400A1B0EF /* footer@2x.png in Resources */,
-				1819447919CF3DD0003BECE1 /* login_facebook@2x.png in Resources */,
+				18F04B031A2253C60067F94A /* icon_cafe@2x.png in Resources */,
 				1819447F19CF3DD0003BECE1 /* textbox_top.png in Resources */,
 				1819447619CF3DD0003BECE1 /* icon_star1.png in Resources */,
+				18F04B081A2253C60067F94A /* icon_star0@2x.png in Resources */,
 				18F49A451A21BD9500A1B0EF /* header.png in Resources */,
 				1819448319CF3FC4003BECE1 /* GoogleMaps.bundle in Resources */,
 				18E9501819CF91FA0007E903 /* InfoWindow.xib in Resources */,
 				1819446C19CF3DD0003BECE1 /* icon_photo.png in Resources */,
+				18F04B041A2253C60067F94A /* icon_photo@2x.png in Resources */,
 				18F49A281A21BAED00A1B0EF /* action_share.png in Resources */,
-				1819447B19CF3DD0003BECE1 /* pykin_splash@2x.png in Resources */,
 				184978D419D10FBA0079DF59 /* indy.jpg in Resources */,
 				1819447219CF3DD0003BECE1 /* icon_resto.png in Resources */,
 				18642C8219D01D3400A78CB9 /* UGO-COLOR.otf in Resources */,
@@ -595,6 +614,7 @@
 				18F49A391A21BB0800A1B0EF /* login_facebook@2x.png in Resources */,
 				184978E619D11EAB0079DF59 /* mahit.png in Resources */,
 				1819447819CF3DD0003BECE1 /* login_facebook.png in Resources */,
+				18F04B051A2253C60067F94A /* icon_pykinite@2x.png in Resources */,
 				1819446E19CF3DD0003BECE1 /* icon_pykinite.png in Resources */,
 				18F49A3A1A21BB0800A1B0EF /* pykin_splash@2x.png in Resources */,
 				18F49A491A21BE5400A1B0EF /* footer.png in Resources */,
