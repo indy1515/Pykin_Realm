@@ -60,6 +60,26 @@ NSString *const CAFE = @"Cafe";
     return self;
 }
 
+-(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D)latLng name:(NSString *)name type:(NSString *)type objectId:(NSString *)objectId{
+    if(self = [super init]){
+        self.latLng = latLng;
+        self.name = name;
+        self.type = type;
+        self.objectId = objectId;
+        
+    }
+    return self;
+}
+-(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D)latLng name:(NSString *)name type:(NSString *)type objectId:(NSString *)objectId isCanteen:(NSString*)isCanteen{
+    if(self = [super init]){
+        self.latLng = latLng;
+        self.name = name;
+        self.type = type;
+        self.objectId = objectId;
+        self.isCanteen = isCanteen;
+    }
+    return self;
+}
 
 -(void) setCustomStar:(int) starNo: (Boolean) starred{
     [self.star setValue:[NSNumber numberWithBool:starred] forKey:[NSString stringWithFormat:@"star%d",starNo]];

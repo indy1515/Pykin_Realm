@@ -18,7 +18,8 @@ extern NSString *const CAFE;
 @property NSString *name;
 @property NSMutableDictionary *star;
 @property NSString *type;
-
+@property NSString *objectId;
+@property NSString *isCanteen;
 
 - (id)initWithCLLocationCoordinate:(CLLocationCoordinate2D )latLng
                name:(NSString *)name
@@ -27,4 +28,8 @@ extern NSString *const CAFE;
 -(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D )latLng name:(NSString *)name;
 
 -(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D )latLng name:(NSString *)name type:(NSString *)type;
+
+-(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D)latLng name:(NSString *)name type:(NSString *)type objectId:(NSString *)objectId;
+
+-(id) initWithCLLocationCoordinate:(CLLocationCoordinate2D)latLng name:(NSString *)name type:(NSString *)type objectId:(NSString *)objectId isCanteen:(NSString*)isCanteen;
 @end

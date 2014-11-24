@@ -43,6 +43,9 @@
 		182B9B8F1A11E82F0082E5D4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B9B8E1A11E82F0082E5D4 /* HeaderView.xib */; };
 		182B9B921A11EB4A0082E5D4 /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B9B911A11EB4A0082E5D4 /* HeaderViewController.m */; };
 		182B9B951A11F0690082E5D4 /* TestHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B9B941A11F0690082E5D4 /* TestHeaderViewController.m */; };
+		1846E8E51A238FED008A0CF0 /* ImageCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846E8E41A238FED008A0CF0 /* ImageCrop.m */; };
+		1846E8E71A2395A5008A0CF0 /* pykinian.png in Resources */ = {isa = PBXBuildFile; fileRef = 1846E8E61A2395A5008A0CF0 /* pykinian.png */; };
+		1846E8EA1A239C86008A0CF0 /* ObjectDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846E8E91A239C86008A0CF0 /* ObjectDecoder.m */; };
 		184978D819D110180079DF59 /* pykin_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 184978D719D110180079DF59 /* pykin_next.png */; };
 		184978DD19D11E150079DF59 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184978DC19D11E150079DF59 /* DetailViewController.m */; };
 		184978ED19D141DD0079DF59 /* Montmartre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 184978EC19D141DD0079DF59 /* Montmartre.mp3 */; };
@@ -98,6 +101,13 @@
 		185DFDD719F3BB7C000F5FFE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DFDD619F3BB7C000F5FFE /* FacebookSDK.framework */; };
 		18642C8119D01CCD00A78CB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181943E719CF2DEF003BECE1 /* InfoPlist.strings */; };
 		18642C8219D01D3400A78CB9 /* UGO-COLOR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9502919D016B20007E903 /* UGO-COLOR.otf */; };
+		18AE65401A22D3C80021D055 /* ShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE653F1A22D3C80021D055 /* ShopListViewController.m */; };
+		18AE65431A22D3ED0021D055 /* ShopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE65421A22D3ED0021D055 /* ShopDetailViewController.m */; };
+		18AE65461A22D4120021D055 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE65451A22D4120021D055 /* ReviewViewController.m */; };
+		18AE65491A22E2040021D055 /* ShopRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE65481A22E2040021D055 /* ShopRegistrationViewController.m */; };
+		18AE654C1A230C1E0021D055 /* CanteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE654B1A230C1E0021D055 /* CanteenViewController.m */; };
+		18AE65511A2332200021D055 /* CustomShopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AE65501A2332200021D055 /* CustomShopViewCell.xib */; };
+		18AE65541A2343180021D055 /* CustomShopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE65531A2343180021D055 /* CustomShopViewCell.m */; };
 		18B3CA4119D02E35009DFC74 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3CA4019D02E35009DFC74 /* RankViewController.m */; };
 		18B3CA4319D03522009DFC74 /* textbox_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B3CA4219D03522009DFC74 /* textbox_full.png */; };
 		18B3CA4619D03862009DFC74 /* CustomInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3CA4519D03862009DFC74 /* CustomInfoWindow.m */; };
@@ -132,7 +142,7 @@
 		181943D319CF2DEF003BECE1 /* MyAppMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppMyScene.m; sourceTree = "<group>"; };
 		181943D519CF2DEF003BECE1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		181943D719CF2DEF003BECE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		181943DE19CF2DEF003BECE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		181943DE19CF2DEF003BECE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/XCTest.framework; sourceTree = "<absolute>"; };
 		181943E619CF2DEF003BECE1 /* Pykin RealmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pykin RealmsTests-Info.plist"; sourceTree = "<group>"; };
 		181943E819CF2DEF003BECE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		181943EA19CF2DEF003BECE1 /* Pykin_RealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pykin_RealmTests.m; sourceTree = "<group>"; };
@@ -166,6 +176,11 @@
 		182B9B911A11EB4A0082E5D4 /* HeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
 		182B9B931A11F0690082E5D4 /* TestHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeaderViewController.h; sourceTree = "<group>"; };
 		182B9B941A11F0690082E5D4 /* TestHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeaderViewController.m; sourceTree = "<group>"; };
+		1846E8E31A238FED008A0CF0 /* ImageCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCrop.h; sourceTree = "<group>"; };
+		1846E8E41A238FED008A0CF0 /* ImageCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCrop.m; sourceTree = "<group>"; };
+		1846E8E61A2395A5008A0CF0 /* pykinian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pykinian.png; sourceTree = "<group>"; };
+		1846E8E81A239C86008A0CF0 /* ObjectDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectDecoder.h; sourceTree = "<group>"; };
+		1846E8E91A239C86008A0CF0 /* ObjectDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectDecoder.m; sourceTree = "<group>"; };
 		184978D719D110180079DF59 /* pykin_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pykin_next.png; sourceTree = "<group>"; };
 		184978DB19D11E150079DF59 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		184978DC19D11E150079DF59 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
@@ -220,6 +235,19 @@
 		1858C66D1A225A4A00FEF3C8 /* login_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_facebook@2x.png"; sourceTree = "<group>"; };
 		1858C66E1A225A4A00FEF3C8 /* pykin_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pykin_splash@2x.png"; sourceTree = "<group>"; };
 		185DFDD619F3BB7C000F5FFE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		18AE653E1A22D3C80021D055 /* ShopListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListViewController.h; sourceTree = "<group>"; };
+		18AE653F1A22D3C80021D055 /* ShopListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListViewController.m; sourceTree = "<group>"; };
+		18AE65411A22D3ED0021D055 /* ShopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailViewController.h; sourceTree = "<group>"; };
+		18AE65421A22D3ED0021D055 /* ShopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailViewController.m; sourceTree = "<group>"; };
+		18AE65441A22D4120021D055 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
+		18AE65451A22D4120021D055 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
+		18AE65471A22E2040021D055 /* ShopRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopRegistrationViewController.h; sourceTree = "<group>"; };
+		18AE65481A22E2040021D055 /* ShopRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopRegistrationViewController.m; sourceTree = "<group>"; };
+		18AE654A1A230C1E0021D055 /* CanteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanteenViewController.h; sourceTree = "<group>"; };
+		18AE654B1A230C1E0021D055 /* CanteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanteenViewController.m; sourceTree = "<group>"; };
+		18AE65501A2332200021D055 /* CustomShopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomShopViewCell.xib; path = ../CustomShopViewCell.xib; sourceTree = "<group>"; };
+		18AE65521A2343180021D055 /* CustomShopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShopViewCell.h; sourceTree = "<group>"; };
+		18AE65531A2343180021D055 /* CustomShopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomShopViewCell.m; sourceTree = "<group>"; };
 		18B3CA3F19D02E35009DFC74 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
 		18B3CA4019D02E35009DFC74 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		18B3CA4219D03522009DFC74 /* textbox_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_full.png; sourceTree = "<group>"; };
@@ -349,12 +377,29 @@
 				18B3CA4519D03862009DFC74 /* CustomInfoWindow.m */,
 				1819449C19CF45B8003BECE1 /* MapViewController.h */,
 				1819449D19CF45B8003BECE1 /* MapViewController.m */,
+				18AE65501A2332200021D055 /* CustomShopViewCell.xib */,
+				18AE65521A2343180021D055 /* CustomShopViewCell.h */,
+				18AE65531A2343180021D055 /* CustomShopViewCell.m */,
+				18AE653E1A22D3C80021D055 /* ShopListViewController.h */,
+				18AE653F1A22D3C80021D055 /* ShopListViewController.m */,
+				18AE65411A22D3ED0021D055 /* ShopDetailViewController.h */,
+				18AE65421A22D3ED0021D055 /* ShopDetailViewController.m */,
+				18AE65441A22D4120021D055 /* ReviewViewController.h */,
+				18AE65451A22D4120021D055 /* ReviewViewController.m */,
 				182B9B901A11EB4A0082E5D4 /* HeaderViewController.h */,
 				182B9B911A11EB4A0082E5D4 /* HeaderViewController.m */,
 				184978DB19D11E150079DF59 /* DetailViewController.h */,
 				184978DC19D11E150079DF59 /* DetailViewController.m */,
+				18AE65471A22E2040021D055 /* ShopRegistrationViewController.h */,
+				18AE65481A22E2040021D055 /* ShopRegistrationViewController.m */,
+				18AE654A1A230C1E0021D055 /* CanteenViewController.h */,
+				18AE654B1A230C1E0021D055 /* CanteenViewController.m */,
+				1846E8E81A239C86008A0CF0 /* ObjectDecoder.h */,
+				1846E8E91A239C86008A0CF0 /* ObjectDecoder.m */,
 				1819449F19CF681B003BECE1 /* Shop.h */,
 				181944A019CF681B003BECE1 /* Shop.m */,
+				1846E8E31A238FED008A0CF0 /* ImageCrop.h */,
+				1846E8E41A238FED008A0CF0 /* ImageCrop.m */,
 				181943D219CF2DEF003BECE1 /* MyAppMyScene.h */,
 				181943D319CF2DEF003BECE1 /* MyAppMyScene.m */,
 				1819442E19CF33C3003BECE1 /* MapScene.h */,
@@ -468,6 +513,7 @@
 		184978CC19D10FBA0079DF59 /* profile */ = {
 			isa = PBXGroup;
 			children = (
+				1846E8E61A2395A5008A0CF0 /* pykinian.png */,
 				1858C61B1A22597100FEF3C8 /* aey.jpg */,
 				1858C61C1A22597100FEF3C8 /* first.jpg */,
 				1858C61D1A22597100FEF3C8 /* indy.jpg */,
@@ -599,6 +645,7 @@
 				1858C61A1A22595C00FEF3C8 /* action_share.png in Resources */,
 				1858C6661A225A2F00FEF3C8 /* pykin_next.png in Resources */,
 				1858C6321A2259F200FEF3C8 /* menu_grayoverlay.png in Resources */,
+				18AE65511A2332200021D055 /* CustomShopViewCell.xib in Resources */,
 				1858C6181A22595C00FEF3C8 /* action_checkin.png in Resources */,
 				1858C65D1A225A2F00FEF3C8 /* icon_star0@2x.png in Resources */,
 				1858C62B1A2259C500FEF3C8 /* footer.png in Resources */,
@@ -607,6 +654,7 @@
 				1858C6531A225A2F00FEF3C8 /* icon_close.png in Resources */,
 				1858C6701A225A4A00FEF3C8 /* pykin_splash@2x.png in Resources */,
 				1858C6241A22597100FEF3C8 /* varee.jpg in Resources */,
+				1846E8E71A2395A5008A0CF0 /* pykinian.png in Resources */,
 				1858C65C1A225A2F00FEF3C8 /* icon_star0.png in Resources */,
 				181943D819CF2DEF003BECE1 /* Images.xcassets in Resources */,
 				1819447C19CF3DD0003BECE1 /* textbox_body.png in Resources */,
@@ -644,14 +692,22 @@
 				18B3CA4619D03862009DFC74 /* CustomInfoWindow.m in Sources */,
 				182B9B921A11EB4A0082E5D4 /* HeaderViewController.m in Sources */,
 				181944A119CF681B003BECE1 /* Shop.m in Sources */,
+				18AE65541A2343180021D055 /* CustomShopViewCell.m in Sources */,
+				18AE65431A22D3ED0021D055 /* ShopDetailViewController.m in Sources */,
 				181943D419CF2DEF003BECE1 /* MyAppMyScene.m in Sources */,
+				18AE65461A22D4120021D055 /* ReviewViewController.m in Sources */,
 				18B3CA4119D02E35009DFC74 /* RankViewController.m in Sources */,
 				184978DD19D11E150079DF59 /* DetailViewController.m in Sources */,
 				181943D119CF2DEF003BECE1 /* MyAppViewController.m in Sources */,
+				18AE65401A22D3C80021D055 /* ShopListViewController.m in Sources */,
+				1846E8EA1A239C86008A0CF0 /* ObjectDecoder.m in Sources */,
+				18AE654C1A230C1E0021D055 /* CanteenViewController.m in Sources */,
 				181943CB19CF2DEF003BECE1 /* MyAppAppDelegate.m in Sources */,
 				1819449E19CF45B8003BECE1 /* MapViewController.m in Sources */,
 				182B9B951A11F0690082E5D4 /* TestHeaderViewController.m in Sources */,
 				181943C719CF2DEF003BECE1 /* main.m in Sources */,
+				1846E8E51A238FED008A0CF0 /* ImageCrop.m in Sources */,
+				18AE65491A22E2040021D055 /* ShopRegistrationViewController.m in Sources */,
 				1819443019CF33C3003BECE1 /* MapScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

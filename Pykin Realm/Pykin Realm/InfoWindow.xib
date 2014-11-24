@@ -58,7 +58,7 @@
     </objects>
     <resources>
         <image name="icon_star0.png" width="64" height="62"/>
-        <image name="pykin_next.png" width="40" height="77"/>
+        <image name="pykin_next.png" width="76" height="103"/>
         <image name="textbox_full.png" width="603" height="223"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
